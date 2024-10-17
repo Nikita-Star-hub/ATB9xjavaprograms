@@ -2,7 +2,7 @@ package Oct.ex_17101993;
 
 import java.util.Scanner;
 
-public class Lab005 {
+public class Triangle1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Side1");
@@ -27,6 +27,6 @@ public class Lab005 {
 
             System.out.println("scalene");
         }
-
+        scan.close();
     }
 }
